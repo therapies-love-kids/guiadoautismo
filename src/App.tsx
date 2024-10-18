@@ -2,12 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
 import { Inicio } from './pages';
+import { QRCodeSVG } from 'qrcode.react';
 
-// Data de liberação (em UTC)
-const releaseDate = new Date(Date.UTC(2024, 9, 18)); // 18/10/2024 UTC
-releaseDate.setUTCDate(releaseDate.getUTCDate() + 8); // +15 dias
+const releaseDate = new Date(Date.UTC(2024, 9, 18));
+releaseDate.setUTCDate(releaseDate.getUTCDate() + 0);
 
-// Componente de Countdown
 const Countdown = ({ releaseTime, onComplete }) => {
     const [timeLeft, setTimeLeft] = useState(releaseTime - new Date().getTime());
 
@@ -384,22 +383,25 @@ const SubPage = ({ page }) => {
         <div className='flex flex-col items-center justify-center p-4 h-screen'>
             {isReleased ? (
                 <>
-                    <h1>{currentPageData.title}</h1>
+                    <h1 className='text-3xl mt-20 mb-5'>{currentPageData.title}</h1>
                     {currentPageData.videoUrl && (
                         <iframe
-                            width="560"
-                            height="315"
+                            className='mb-5 w-[80%] h-[80%]'
                             src={currentPageData.videoUrl}
                             title={currentPageData.title}
                             allowFullScreen
                         ></iframe>
                     )}
-                    {currentPageData.content.map((item, index) => (
-                        <div key={index}>
-                            {item.type === 'paragraph' && <p>{item.text}</p>}
-                            {item.type === 'subtitle' && <h2>{item.text}</h2>}
-                        </div>
-                    ))}
+                    <div className='w-full flex flex-col items-center gap-10'>
+
+                        {currentPageData.content.map((item, index) => (
+                            <div key={index}>
+                                {item.type === 'paragraph' && <p>{item.text}</p>}
+                                {item.type === 'subtitle' && <h2>{item.text}</h2>}
+                            </div>
+                        ))}
+                        <QRCodeSVG value={`https://guiadoautismo.vercel.app/${page}`} size={128} />
+                    </div>
                 </>
             ) : (
                 <Countdown releaseTime={releaseDate.getTime()} onComplete={() => setIsReleased(true)} />
