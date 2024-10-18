@@ -377,6 +377,41 @@ const SubPage = ({ page }) => {
                 { type: 'paragraph', text: 'Reflexão sobre a dinâmica familiar e a importância do apoio do cônjuge na terapia de crianças autistas.' }
             ]
         },
+        {
+            title: "Reserva 1",
+            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_RESERVA",
+            content: [
+                { type: 'paragraph', text: 'RESERVA' }
+            ]
+        },
+        {
+            title: "Reserva 2",
+            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_RESERVA",
+            content: [
+                { type: 'paragraph', text: 'RESERVA' }
+            ]
+        },
+        {
+            title: "Reserva 3",
+            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_RESERVA",
+            content: [
+                { type: 'paragraph', text: 'RESERVA' }
+            ]
+        },
+        {
+            title: "Reserva 4",
+            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_RESERVA",
+            content: [
+                { type: 'paragraph', text: 'RESERVA' }
+            ]
+        },
+        {
+            title: "Reserva 5",
+            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_RESERVA",
+            content: [
+                { type: 'paragraph', text: 'RESERVA' }
+            ]
+        },
     ];
     const currentPageData = pageData[page - 1];
     return (
