@@ -64,9 +64,10 @@ const SubPage = ({ page }) => {
     const pageData = [
         {
             title: "O Valor Da Comunicação: Um Relato De Um Pai Atípico",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_1",
+            videoUrl: "https://www.youtube.com/embed/9klH_dMKOMc",
             content: [
-                { type: 'paragraph', text: 'Um relato inspirador sobre a importância da comunicação no contexto do autismo, focando na experiência de um pai.' }
+                { type: 'subtitle', text: 'Sobre o autor: Victor Alexandre dos Santos Almeida' },
+                { type: 'paragraph', text: 'Atua como Gerente de Marketing na clínica Therapies Love Kids, onde é responsável pela estratégia de comunicação e captação de novos clientes. Possui experiência em ferramentas como CorelDRAW e Photoshop, com grande parte do seu conhecimento em marketing digital adquirido através de cursos online e consumo de conteúdo especializado. É casado com Janini e pai de Arthur e Heitor, o que o inspira diariamente em seu trabalho e na dedicação a comunicação terapêutica.' }
             ]
         },
         {
@@ -92,21 +93,21 @@ const SubPage = ({ page }) => {
         },
         {
             title: "A Relevância Da Avaliação Neuropsicológica No Diagnóstico De Crianças Com Transtorno Do Espectro Autista (Tea)",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_5",
+            videoUrl: "https://www.youtube.com/embed/i9DTUs3PPUI",
             content: [
                 { type: 'paragraph', text: 'Discussão sobre a importância das avaliações neuropsicológicas no diagnóstico e acompanhamento de crianças com TEA.' }
             ]
         },
         {
             title: "Navegando Sobre O Luto Invisível: Pais E O Diagnóstico De Tea",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_6",
+            videoUrl: "https://www.youtube.com/embed/vuy2SUhgVG8",
             content: [
                 { type: 'paragraph', text: 'Reflexão sobre o processo de luto que muitos pais enfrentam após o diagnóstico de autismo de seus filhos.' }
             ]
         },
         {
             title: "Após O Luto Do Diagnóstico",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_7",
+            videoUrl: "https://www.youtube.com/embed/Yt1Zdcj4rDQ",
             content: [
                 { type: 'paragraph', text: 'Estratégias para pais que estão superando o luto e buscando apoio após o diagnóstico de TEA.' }
             ]
@@ -127,7 +128,7 @@ const SubPage = ({ page }) => {
         },
         {
             title: "Como Identificar E Tratar A Disfonia?",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_10",
+            videoUrl: "https://www.youtube.com/embed/yUR2tJsejl4",
             content: [
                 { type: 'paragraph', text: 'Sinais de disfonia em crianças autistas e as melhores abordagens de tratamento.' }
             ]
@@ -148,7 +149,7 @@ const SubPage = ({ page }) => {
         },
         {
             title: "Crises Vs Birra, Como Diferenciar?",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_13",
+            videoUrl: "https://www.youtube.com/embed/VTkgOqXmC-M",
             content: [
                 { type: 'paragraph', text: 'Dicas para distinguir crises de birras em crianças autistas e como reagir adequadamente.' }
             ]
@@ -183,14 +184,14 @@ const SubPage = ({ page }) => {
         },
         {
             title: "Como Estimular As Emoções Em Crianças Autistas",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_18",
+            videoUrl: "https://www.youtube.com/embed/gGtf8DLb9O4",
             content: [
                 { type: 'paragraph', text: 'Métodos para ajudar crianças autistas a reconhecer e expressar emoções.' }
             ]
         },
         {
             title: "Ensino De Emoções Para Crianças Autistas Por Meio Dos Operantes Verbais",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_19",
+            videoUrl: "https://www.youtube.com/embed/kSdVfZcs9O0",
             content: [
                 { type: 'paragraph', text: 'Estratégias de ensino de emoções usando a abordagem dos operantes verbais.' }
             ]
@@ -232,7 +233,7 @@ const SubPage = ({ page }) => {
         },
         {
             title: "Psicomotricidade No Transtorno Do Espectro Autista (Tea)",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_25",
+            videoUrl: "https://www.youtube.com/embed/oiauTv2Mi24",
             content: [
                 { type: 'paragraph', text: 'A importância da psicomotricidade no desenvolvimento de crianças com TEA.' }
             ]
@@ -253,7 +254,7 @@ const SubPage = ({ page }) => {
         },
         {
             title: "Estimulando A Coordenação Motora Fina",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_28",
+            videoUrl: "https://www.youtube.com/embed/J-HToZ0-Mh0",
             content: [
                 { type: 'paragraph', text: 'Atividades práticas para ajudar no desenvolvimento da coordenação motora fina em crianças autistas.' }
             ]
@@ -295,14 +296,14 @@ const SubPage = ({ page }) => {
         },
         {
             title: "Uma Palavra Sobre Os Benefícios Da Musicoterapia Para O Desenvolvimento De Crianças Com Tea",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_34",
+            videoUrl: "https://www.youtube.com/embed/dy-qV5m3lbU",
             content: [
                 { type: 'paragraph', text: 'Como a musicoterapia pode ajudar no desenvolvimento social e emocional de crianças com TEA.' }
             ]
         },
         {
             title: "A Prática Da Musicoterapia Para Pacientes Autistas",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_35",
+            videoUrl: "https://www.youtube.com/embed/JN5n_myauK8",
             content: [
                 { type: 'paragraph', text: 'Abordagem prática da musicoterapia e suas aplicações com crianças autistas.' }
             ]
@@ -344,7 +345,7 @@ const SubPage = ({ page }) => {
         },
         {
             title: "As Barreiras Comerciais No Tratamento Do Autismo",
-            videoUrl: "https://www.youtube.com/embed/VIDEO_ID_41",
+            videoUrl: "https://www.youtube.com/embed/-tLfoiHoXjE",
             content: [
                 { type: 'paragraph', text: 'Análise das barreiras enfrentadas por famílias ao buscar tratamento para autismo.' }
             ]
@@ -432,7 +433,7 @@ const SubPage = ({ page }) => {
                         {currentPageData.content.map((item, index) => (
                             <div key={index}>
                                 {item.type === 'paragraph' && <p>{item.text}</p>}
-                                {item.type === 'subtitle' && <h2>{item.text}</h2>}
+                                {item.type === 'subtitle' && <h2 className='text-2xl'>{item.text}</h2>}
                             </div>
                         ))}
                         <QRCodeSVG value={`https://guiadoautismo.vercel.app/${page}`} size={128} />
